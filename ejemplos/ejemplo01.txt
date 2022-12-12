@@ -27,3 +27,26 @@
 17. Fin
 
 // Solución ciclo Mientras
+
+1.  Inicio
+2.  (notasEstudiante1(3),i[0-n])
+3.  (notasEstudiante2(3),i[0-n])
+4.  indice, i[0-n] <-- 0
+5.  sumaUno, i[0-n] <-- 0
+6.  sumaDos, i[0-n] <-- 0
+7.  sumaTotal, i[0,n]
+8.  notasEstudiantes1[0] <-- 9
+9.  notasEstudiantes1[1] <-- 10
+10. notasEstudiantes1[2] <-- 7
+11. notasEstudiantes2[0] <-- 8
+12. notasEstudiantes2[1] <-- 9
+13. notasEstudiantes2[2] <-- 10
+
+14. Mientras indice < 3 entonces
+15.   sumaUno <-- sumaUno + notasEstudiante1[indice]
+16.   sumaDos <-- sumaDos + notasEstudiante2[indice]
+17.   indice <-- indice + 1
+18. Fin_Para
+19. sumaTotal <-- sumaUno + sumaDos
+20. Escribir sumaTotal
+21. Fin
