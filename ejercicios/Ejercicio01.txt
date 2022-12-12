@@ -1,0 +1,18 @@
+Inicio
+mensaje, x(100)[{A-Z}, {a-z}, {0-n}, {BS, $}]
+ventas(5),i[0-n]
+indice, i[0-n]
+dias(5), x(20)[{a-z}, {BS}]
+dias[0]<-- "Lunes"
+dias[1]<-- "Martes"
+dias[2]<-- "Miércoles"
+dias[3]<-- "Jueves"
+dias[4]<-- "Viernes"
+
+Para (indice <-- 0, indice < 5, 1) haga
+	<< "Ingrese el valor del día " + dias[indice] + ":"
+	>> ventas[indice]
+	mensaje <-- mensaje + dias[indice] + "\t" + "$" + ventas[indice] +"\n"
+Fin Para
+<< mensaje
+Fin 

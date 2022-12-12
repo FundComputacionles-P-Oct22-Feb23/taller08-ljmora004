@@ -1,0 +1,15 @@
+Inicio
+arreglo(5), i[0-n]
+arreglo[0] <-- 10
+arreglo[1] <-- 9
+arreglo[2] <-- 20
+arreglo[3] <-- 29
+arreglo[4] <-- 100
+indice, i[0,n]
+
+Para (indice <-- 0, indice < 5, 1) haga
+	Si indice MOD 2 == 0 and indice >= 2 entonces
+		<< arreglo[indice]
+	Fin Si
+Fin Para
+Fin 		
