@@ -27,6 +27,7 @@
 18.     << notasEstudiante[indice] + "es calificación -- " + notasEstudianteCualitativo[indice] + "\n"
 19.   De lo contrario
 20.     notasEstudianteCualitativo[indice] <-- "Mala"
-21.     << notasEstudiante[indice] + "es calificación -- " + notasEstudianteCualitativo[indice] + "\n"   
-22. Fin_Para
-23. Fin
+21.     << notasEstudiante[indice] + "es calificación -- " + notasEstudianteCualitativo[indice] + "\n"
+22.   Fin Si   
+23. Fin_Para
+24. Fin
